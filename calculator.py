@@ -1,17 +1,16 @@
 #! python3
 import math
-import sys
 
 #calculator
 def calculator():
     print("\nWelcome to Calculator")
         # This function adds two numbers 
     def add(x, y):
-       return x + y
+        return x + y
 
     # This function subtracts two numbers 
     def subtract(x, y):
-       return x - y
+        return x - y
 
     # This function multiplies two numbers
     def multiply(x, y):
@@ -69,7 +68,7 @@ def calculator():
             if(num2 == 0):
                 print("\nDivison by 0 is not defined")
             else:
-               print("\n",num1,"/",num2,"=", divide(num1,num2))
+                print("\n",num1,"/",num2,"=", divide(num1,num2))
 
         elif choice =='5':
             num1 = int(input("\nEnter base: "))
@@ -93,9 +92,9 @@ def calculator():
             print("\n",num1,"! =",fact(num1))
             
         else:
-           print("Invalid input")
-           calculator()
-           
+            print("Invalid input")
+            calculator()
+        
         #Again asking user about calculator
         print("\nDo you want to use calculator again?")
         print("1. Yes \t 2. No")
